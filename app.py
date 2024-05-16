@@ -51,7 +51,7 @@ smoking_gr=gr.Radio([("yes",1), ("no",0)],label="Smoking", info="Does patient sm
 # YOUR CODE HERE
 out_label = gr.Textbox(type="text", label='Prediction', elem_id="out_textbox")
 
-title = "Patient Survival Prediction"
+title = "Patient Survival Prediction 2.0"
 description = "Predict survival of patient with heart failure, given their clinical record"
 
 iface = gr.Interface(fn = predict_death_event,
